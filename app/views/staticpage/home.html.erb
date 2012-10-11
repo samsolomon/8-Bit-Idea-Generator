@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>8-Bit Startup Idea Generator</title>
+	<meta name="description" content="">
+	<link rel="stylesheet" href="style.css">	
+	<link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+	<div class="nav">
+		<h1>8-Bit Starup Idea Generator</h1>
+	</div>
+
+	<div class="container">
+
+		<div class="person">
+			<%= image_tag("pixelperson.png", alt: "Startup Pixel Dide")%>
+		</div>
+
+		<div class="speech">
+			<%= image_tag("speechbubble.png", alt: "Idea Generation Bubble")%>
+			<p><%= @startup%> for <%= @occupation %></p>
+		</div>
+
+		<div class="generate">
+			<p>Generate Idea</p>
+		</div>
+
+		<div class="footer">
+			<p>Built with love by <a href="https://twitter.com/starterleague">@StarterLeague</a> students 
+			<a href="https://twitter.com/SamuelRSolomon">@SamuelRSolomon</a>, 
+			<a href="https://twitter.com/NicholasHould">@NicholasHould</a>, 
+			<a href="https://twitter.com/JoeVillanueva22">@JoeVillanueva22</a> and 
+			<a href="https://twitter.com/money_mikec">@money_mikec</a>. </p>
+		</div>
+	</div> <!--end container-->
+</body>

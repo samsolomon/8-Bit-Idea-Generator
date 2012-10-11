@@ -1,0 +1,91 @@
+html {
+  font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+  	-ms-text-size-adjust: 100%;
+  margin: 0 auto;
+}
+
+body {
+	background-image: url("bg_tile.png");
+  	min-width: 960px;
+  	font-family: 'VT323', san serif;
+}
+
+.nav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 75px;
+	background-color: black;
+	color: #fff;
+}
+
+.nav h1 {
+	margin-left:  150px;
+}
+
+.container {
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 960px;
+}
+
+.person{
+	position: fixed;
+	bottom: 0px;
+	width: 400px;
+	margin-right: 10px;
+}
+
+.speech {
+	position: relative;
+	left:275px;
+	margin-top: 100px;
+}
+
+.speech p {
+	position: relative;
+	font-size: 40px;
+	left: 5%;
+	bottom: 275px;
+}
+
+.generate {
+	position: relative;
+	margin: 10px 10px 10px 500px;
+	width: 300px;
+	height: 75px;
+	background-color: #ff4b27;
+	-moz-box-shadow: -11px 11px 10px rgba(0,0,0,.75);
+	-webkit-box-shadow: -11px 11px 10px rgba(0,0,0,.75);
+	box-shadow: -11px 11px 10px rgba(0,0,0,.75);
+}
+
+
+.generate:active{
+	position: relative;
+	margin: 10px 10px 10px 500px;
+	width: 300px;
+	height: 75px;
+	background-color: #ff6e27;
+	-moz-box-shadow: -6px 6px 5px rgba(0,0,0,.75);
+	-webkit-box-shadow: -6px 6px 5px rgba(0,0,0,.75);
+	box-shadow: -6px 6px 6px rgba(0,0,0,.75);
+}
+
+.generate p {
+	position: relative;
+	display: block;
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.footer {
+	position: relative;
+	width: 550px;
+	margin: 75px 50px 10px 375px;
+}
+
