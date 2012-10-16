@@ -11,6 +11,13 @@ body {
   	font-family: 'VT323', san serif;
 }
 
+input {
+	font-family: 'VT323', san serif;
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+}
+
 .nav {
 	position: fixed;
 	top: 0px;

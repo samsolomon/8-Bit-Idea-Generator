@@ -10,6 +10,6 @@ class Staticpages < ActiveRecord::Base
  def get_random_occupation
    occupation_array = IO.readlines(File.join(RAILS_ROOT, "app/assets/occupationlist.txt")
    dice = rand(occupation_array.length)
-   occupation = occupation_array[diece];
+   occupation = occupation_array[dice];
  end
 end
