@@ -49,13 +49,16 @@ input {
 	position: relative;
 	left:275px;
 	margin-top: 100px;
+
 }
 
 .speech p {
 	position: relative;
+	display: block;
 	font-size: 40px;
 	left: 5%;
 	bottom: 275px;
+	padding: 0 100px 0 20px;
 }
 
 .generate {
