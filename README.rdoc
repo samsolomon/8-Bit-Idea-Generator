@@ -5,4 +5,5 @@ This Ruby on Rails application takes data from two text files and reads them int
 The live generator can be seen at http://ideabit.herokuapp.com/
 
 You can learn more about this project at http://samuelrsolomon.com/startup-idea-generator/
-Follow me https://twitter.com/SamuelRSolomon
+
+Follow me at https://twitter.com/SamuelRSolomon
